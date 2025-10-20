@@ -15,8 +15,8 @@ const projects = [
     id: 1,
     title: "QR Generator",
     description:
-      "A web-based tool to generate custom QR codes that point to any URL. Features a clean interface for creating, previewing, and downloading QR codes in a bulk.",
-    image: "/placeholder.svg?height=400&width=600",
+      "A web-based tool to generate custom QR codes that point to any URL. Features a clean interface for creating, previewing, and downloading QR codes in bulk.",
+    image: "/images/projects/qrGenerator.png",
     tags: ["React", "Tailwind CSS"],
     demoUrl: "/projects/qrGenerator",
     githubUrl: "https://github.com/carlosbarreto/project1",
@@ -77,7 +77,7 @@ const Projects = () => {
           transition={{ duration: 0.5, delay: index * 0.1 }}
         >
           <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow">
-            <div className="relative h-48 w-full overflow-hidden">
+            <div className="relative h-56 w-full overflow-hidden">
               <Image
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
