@@ -18,7 +18,7 @@ const projects = [
       "A web-based tool to generate custom QR codes that point to any URL. Features a clean interface for creating, previewing, and downloading QR codes in a bulk.",
     image: "/placeholder.svg?height=400&width=600",
     tags: ["React", "Tailwind CSS"],
-    demoUrl: "https://project1.example.com",
+    demoUrl: "/projects/qrGenerator",
     githubUrl: "https://github.com/carlosbarreto/project1",
   },
   {
