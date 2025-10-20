@@ -13,6 +13,16 @@ import { useInView } from "framer-motion"
 const projects = [
   {
     id: 1,
+    title: "QR Generator",
+    description:
+      "A web-based tool to generate custom QR codes that point to any URL. Features a clean interface for creating, previewing, and downloading QR codes in a bulk.",
+    image: "/placeholder.svg?height=400&width=600",
+    tags: ["React", "Tailwind CSS"],
+    demoUrl: "https://project1.example.com",
+    githubUrl: "https://github.com/carlosbarreto/project1",
+  },
+  {
+    id: 2,
     title: "E-Commerce Platform",
     description:
       "A modern e-commerce platform with real-time inventory management. Solved complex state management challenges while maintaining optimal performance.",
@@ -22,7 +32,7 @@ const projects = [
     githubUrl: "https://github.com/carlosbarreto/project1",
   },
   {
-    id: 2,
+    id: 3,
     title: "Task Management App",
     description:
       "A collaborative task management application with real-time updates. Implemented drag-and-drop functionality and real-time notifications.",
@@ -32,7 +42,7 @@ const projects = [
     githubUrl: "https://github.com/carlosbarreto/project2",
   },
   {
-    id: 3,
+    id: 4,
     title: "Financial Dashboard",
     description:
       "An interactive dashboard for financial data visualization. Created intuitive data visualizations and implemented complex filtering capabilities.",
@@ -42,7 +52,7 @@ const projects = [
     githubUrl: "https://github.com/carlosbarreto/project3",
   },
   {
-    id: 4,
+    id: 5,
     title: "Health & Fitness Tracker",
     description:
       "A mobile-first application for tracking health and fitness goals. Designed an intuitive UX for complex data entry and progress visualization.",
