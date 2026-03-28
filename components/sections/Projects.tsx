@@ -12,7 +12,49 @@ import { useInView } from "framer-motion"
 // Project data
 const projects = [
   {
-    id: 1,
+  id: 1,
+  title: "Drimov",
+  description:
+    "A premium rideshare application with dedicated rider and driver experiences, focused on seamless booking, real-time trip coordination, secure authentication, and scalable mobility operations. Built to deliver a modern alternative to traditional ride-hailing platforms.",
+  image: "/images/projects/DrimovImage.png",
+  tags: ["React Native", "Expo", "TypeScript", "Node.js", "MongoDB"],
+  demoUrl: "https://www.drimov.com",
+  githubUrl: "https://github.com/TonyBarretor/drimov",
+},
+  {
+  id: 2,
+  title: "Premium House Cleaning Service",
+  description:
+    "A premium house cleaning website designed for busy professionals, featuring service plan presentation, recurring cleaning options, strong trust signals, and a polished booking flow focused on free estimates and customer conversion.",
+  image: "/images/projects/HouseCleaning.png",
+  tags: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+  demoUrl: "https://housecleaning-eta.vercel.app/",
+  githubUrl: "https://github.com/TonyBarretor/housecleaning",
+},
+ 
+  
+  {
+    id: 3,
+    title: "Be Surf Co.",
+    description:
+    "A premium surf e-commerce experience built to highlight high-end surfboards, wetsuits, and accessories through elegant product presentation, clear category navigation, and strong lifestyle-driven branding.",
+  image: "/images/projects/SurfCo.png",
+  tags: ["E-Commerce", "Responsive Design", "Product Showcase", "Branding"],
+    demoUrl: "https://besurf-sage.vercel.app/",
+    githubUrl: "https://github.com/TonyBarretor/BESurf",
+  },
+  {
+    id: 4,
+    title: "Baykery E-commerce",
+    description:
+    "An artisanal bakery storefront built to present fresh weekend-baked products, organize categories like breads, cakes, cookies, and croissants, and reinforce a warm local brand identity for customers in Lima, Peru.",
+  image: "/images/projects/Baykery.png",
+  tags: ["E-Commerce", "Responsive Design", "Product Showcase", "Brand Experience"],
+  demoUrl: "https://baykerymvp.vercel.app/",
+  githubUrl: "https://github.com/TonyBarretor/BaykeryProject",
+  },
+   {
+    id: 5,
     title: "QR Generator",
     description:
       "A web-based tool to generate custom QR codes that point to any URL. Features a clean interface for creating, previewing, and downloading QR codes in bulk.",
@@ -22,7 +64,7 @@ const projects = [
     githubUrl: "https://github.com/carlosbarreto/project1",
   },
   {
-    id: 2,
+    id: 6,
     title: "Software Prompt Generator",
     description:
       "A React-based web application that generates customized, professional software development prompts for AI assistants. Features a comprehensive form for project requirements with smart customization, export options (copy/download as .md), and dynamic recommendations based on project size and priorities.",
@@ -30,46 +72,6 @@ const projects = [
     tags: ["React", "Tailwind CSS", "Vite", "Lucide Icons"],
     demoUrl: "https://tonybarretor.github.io/SoftwarePromptGenerator/",
     githubUrl: "https://github.com/TonyBarretor/SoftwarePromptGenerator/settings/pages",
-  },
-  {
-    id: 3,
-    title: "E-Commerce Platform",
-    description:
-      "A modern e-commerce platform with real-time inventory management. Solved complex state management challenges while maintaining optimal performance.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["React", "Node.js", "MongoDB", "Redux"],
-    demoUrl: "https://project1.example.com",
-    githubUrl: "https://github.com/carlosbarreto/project1",
-  },
-  {
-    id: 4,
-    title: "Task Management App",
-    description:
-      "A collaborative task management application with real-time updates. Implemented drag-and-drop functionality and real-time notifications.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["React", "Firebase", "Tailwind CSS", "TypeScript"],
-    demoUrl: "https://project2.example.com",
-    githubUrl: "https://github.com/carlosbarreto/project2",
-  },
-  {
-    id: 5,
-    title: "Financial Dashboard",
-    description:
-      "An interactive dashboard for financial data visualization. Created intuitive data visualizations and implemented complex filtering capabilities.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Next.js", "D3.js", "PostgreSQL", "TypeScript"],
-    demoUrl: "https://project3.example.com",
-    githubUrl: "https://github.com/carlosbarreto/project3",
-  },
-  {
-    id: 6,
-    title: "Health & Fitness Tracker",
-    description:
-      "A mobile-first application for tracking health and fitness goals. Designed an intuitive UX for complex data entry and progress visualization.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["React Native", "GraphQL", "Node.js", "MongoDB"],
-    demoUrl: "https://project4.example.com",
-    githubUrl: "https://github.com/carlosbarreto/project4",
   },
 ]
 
